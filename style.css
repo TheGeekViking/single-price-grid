@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 150px;
+  max-width: 630px;
+  font-family: "Karla", sans-serif;
+}
+
+.sub-title {
+  color: hsl(71, 73%, 54%);
+  font-size: 19px;
+}
+
+.join {
+  background-color: #fff;
+  grid-column: 1 / 3;
+  padding: 35px;
+}
+
+.main-title {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 25px;
+}
+
+.subscription {
+  background-color: #2ab2af;
+  padding: 35px;
+  color: #fff;
+}
+
+.sec-title {
+  font-size: 16px;
+}
+
+.why-us {
+  background-color: #55c1bf;
+  padding: 35px;
+  color: #fff;
+}
+
+.why-us-list {
+  list-style: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
