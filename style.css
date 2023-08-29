@@ -111,3 +111,42 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+  }
+
+  .join {
+    padding: 30px 25px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .main-title {
+    font-size: 19px;
+  }
+
+  .sub-title {
+    font-size: 14.5px;
+  }
+
+  .community-para {
+    font-size: 14px;
+  }
+
+  .subscription {
+    padding: 30px 25px;
+    border-radius: 0;
+  }
+
+  .why-us {
+    padding: 30px 25px;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .container {
+    border-radius: 0 0 5px 5px;
+  }
+}
